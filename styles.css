@@ -1,0 +1,68 @@
+#container {
+  position: relative;
+  height: 300px;
+  width: 200px;
+  border: 1px solid #333;
+  margin: 100px auto;
+  background-color: lightyellow;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+h1 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0;
+}
+
+#number {
+  height: 50px;
+  width: 100px;
+  margin: 50px auto;
+  border: 1px solid;
+  text-align: center;
+}
+
+#increment {
+  height: 25px;
+  width: 50px;
+  margin-top: 70px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#decrement {
+  height: 25px;
+  width: 50px;
+  margin-top: 70px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.reset {
+  position: relative;
+  top: -10px;
+  height: 25px;
+  width: 50px;
+  margin-left: 75px;
+  cursor: pointer;
+}
+
+
+.reminder {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  border: 1px solid;
+  padding: 5px;
+  background-color: white;
+  white-space: nowrap;
+  text-align: center;
+}
